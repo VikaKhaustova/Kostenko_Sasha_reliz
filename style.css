@@ -1,0 +1,483 @@
+.buy-btn{
+    display:inline-block;
+    background:#0066ff;
+    color:white;
+    padding:15px 35px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.buy-btn:hover{
+    background:#004ecc;
+}
+.buyplace-btn{
+ display:inline-block;
+    background:#000080;
+    color:white;
+    padding:15px 40px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+
+}    
+.buyplace-btn:hover{
+    background:#120A8F;
+}
+
+html{
+    zoom: 100%;
+    height: 100%;
+}
+.info-text{
+    margin-bottom: 50px;
+}
+body{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 467px;
+    width: 100%;
+    background-image: url('1.png');
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    height: 77px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    height: 23px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: normal;
+    text-decoration: none;
+    color: #1E1E1E;
+    margin-right: 25px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    text-align: center;
+}
+
+.footer-text{
+    padding: 20px 60px;
+}
+.last-part {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    background-color: #0b0e14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.promo-container {
+    width: 100%;
+    max-width: 900px;
+    height: 1100px;
+    background: linear-gradient(135deg, #020514 0%, #05103a 50%, #0d1647 100%);
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    color: #ffffff;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+/* --- ЛІВА СТОРОНА --- */
+.socials-side {
+    width: 50%;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(2, 5, 20, 0.6);
+}
+
+.side-title {
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.side-title span {
+    color: #4361ee;
+}
+
+.socials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-item:last-child {
+    border-bottom: none;
+}
+
+
+.icon-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container i {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+.tiktok { background: #000000; border: 2px solid #00f2fe; }
+.youtube { background: #ff0000; }
+.facebook { background: #1877f2; }
+.twitter { background: #000000; border: 1px solid #ffffff; }
+.website { background: linear-gradient(135deg, #1d2b64, #f8cdda); }
+.tiktok i { font-size: 24px; }
+
+.social-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.social-name {
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.social-link {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #a0aec0;
+}
+
+.text-ig { color: #e1306c; }
+.text-tt { color: #00f2fe; }
+.text-yt { color: #ff0000; }
+.text-fb { color: #1877f2; }
+.text-x { color: #38bdf8; }
+.text-web { color: #a855f7; }
+
+.footer-note {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+.mini-footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-icons i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.text-primary { color: #3a86ff; }
+.text-warning { color: #ffb703; }
+.text-info { color: #00f2fe; }
+
+.mini-footer p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #94a3b8;
+}
+
+.mini-footer p span {
+    color: #c084fc;
+}
+
+/* --- ПРАВА СТОРОНА --- */
+.branding-side {
+    width: 50%;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: radial-gradient(circle at bottom, #102a75 0%, transparent 70%);
+}
+
+.logo-dummy {
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.branding-text {
+    margin-top: 40px;
+    z-index: 2;
+}
+
+.branding-text h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+.badge-v {
+    background: linear-gradient(135deg, #b5179e, #7209b7);
+    padding: 0 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #3a86ff, #00f2fe, #f72585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.divider {
+    width: 60px;
+    height: 4px;
+    background: #3a86ff;
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.subtitle span {
+    color: #bd93f9;
+}
+
+.cup-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+/* Стиль великої іконки кубка */
+.main-cup-icon {
+    font-size: 220px;
+    color: #ffffff;
+    opacity: 0.15;
+    filter: drop-shadow(0 0 40px rgba(0, 242, 254, 0.6));
+    animation: pulse 4s infinite alternate;
+}
+.socials-list a.social-item {
+    text-decoration: none;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+.match-promo-section {
+            background: radial-gradient(circle, #111a2e 0%, #060a12 100%);
+            background-image: url('4.jpeg');
+            background-position: center;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #ffffff;
+            font-family: 'Arial Black', sans-serif;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            max-width: 1000px;
+            margin: 40px auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Верхня частина: логотип турніру та кубок */
+        .promo-header {
+            margin-bottom: 20px;
+        }
+        .ucl-logo {
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #d4af37; /* Золотавий колір */
+        }
+        .trophy-img {
+            height: 120px;
+            margin: 15px auto;
+            display: block;
+        }
+        .promo-title {
+            color: white;
+            font-size: 36px;
+            text-transform: uppercase;
+            margin: 5px 0;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+        }
+        .promo-year {
+            font-size: 28px;
+            color: #d4af37;
+            margin: 0;
+        }
+
+        /* Головний контейнер для команд (Картки та Нижня панель) */
+        .vs-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 250px;
+        }
+
+        /* Стилі для карток команд (гравці та логотипи) */
+        .team-card {
+            flex: 1;
+            min-width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .team-card:hover {
+            transform: scale(1.03);
+        }
+        .player-photo {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            object-fit: contain;
+        }
+
+        /* НИЖНЯ КЛІКАБЕЛЬНА ПАНЕЛЬ НАЗВ (VS BAR) */
+        .vs-bar {
+            width: 100%;
+            background: linear-gradient(to right, #001f4d 0%, #000000 50%, #4d0000 100%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid #334466;
+            margin-top: 20px;
+            border-radius: 4px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        /* Посилання для команд ПСЖ та Арсенал */
+        .team-link {
+            flex: 1;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 32px;
+            text-transform: uppercase;
+            padding: 15px 20px;
+            transition: all 0.3s ease;
+            letter-spacing: 2px;
+            display: block;
+        }
+
+        /* Ефекти наведення для ПСЖ (синій неоновий відтінок) */
+        .team-link.psg:hover {
+            background: rgba(0, 51, 153, 0.6);
+            text-shadow: 0 0 10px #0055ff, 0 0 20px #0055ff;
+        }
+
+        /* Ефекти наведення для Арсенала (червоний неоновий відтінок) */
+        .team-link.arsenal:hover {
+            background: rgba(204, 0, 0, 0.6);
+            text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+        }
+
+        /* Розділювач VS посередині */
+        .vs-divider {
+            font-size: 28px;
+            color: #d4af37;
+            padding: 0 20px;
+            font-style: italic;
+            user-select: none;
+        }
+
+        h1{
+            text-align:center ;
+            color:#102a75;
+        }
+        h2{
+            text-align:center ;
+        }
+            /* Адаптивність під мобільні екрани */
+        @media (max-width: 768px) {
+            .vs-container {
+                flex-direction: column;
+            }
+            .vs-bar {
+                flex-direction: column;
+            }
+            .team-link {
+                width: 100%;
+                box-sizing: border-box;
+                font-size: 26px;
+                padding: 12px;
+            }
+            .vs-divider {
+                padding: 5px 0;
+                font-size: 20px;
+            }
+       
+            .promo-container {
+                flex-direction: column;
+                height: auto;
+            }
+            .socials-side, .branding-side {
+                width: 100%;
+                padding: 40px 20px;
+            }
+            .branding-side {
+                order: -1;
+                text-align: center;
+            }
+            .logo-dummy { text-align: center; }
+            .divider { margin: 20px auto; }
+            .main-cup-icon { font-size: 140px; }
+            
+            nav{
+                flex-wrap: wrap;
+                height: 200px;
+                gap: 10px;
+            }
+}
