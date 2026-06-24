@@ -480,4 +480,8 @@ main{
                 height: 200px;
                 gap: 10px;
             }
+
+            .vs-container {
+            margin-top: 50px;
+        }
 }
